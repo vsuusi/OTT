@@ -1,8 +1,10 @@
 #include <iostream>
+#include "MyClass.h"
 
 using namespace std;
 
 int main(){
-    cout << "Hello World!";
+    MyClass objMC;
+    objMC.print();
     return 0;
 }
